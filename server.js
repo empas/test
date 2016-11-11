@@ -19,7 +19,7 @@ let parseUserName = (url) => {
 app.use(cors());
 app.get('/',(req, res) => {
 
-    console.log('req.query');
+    console.log('query:');
     console.log(req.query);
 
     let url = req.query.username;
